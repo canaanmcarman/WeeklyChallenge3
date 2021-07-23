@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="../css/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark mb-3">
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="Home.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="AboutBootcamp.html">About the Bootcamp</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Author.html">Blog Author</a>
+        </li>
+    </ul>
+
+</nav>
+<div class="d-flex justify-content-center mb-3">
+    <h1>Polymorphism</h1>
+</div>
+<div class="container bg-light rounded" style="border:5px solid black">
+    <p>
+        <strong>07/20/21</strong> <br>
+        Polymorphism in Java is the ability of an object to take many forms. To simply put, polymorphism in java allows us to perform the same action in many different ways. Any Java object that can pass more than one IS-A test is considered to be polymorphic and in java, all the java objects are polymorphic as it has passed the IS-A test for their own type and for the class Object.
+        There are two types of polymorphism in java: compile-time polymorphism and runtime polymorphism.
+        <br>
+        Polymorphism in Java can be defined as a task that can perform a single action in different ways.
+        Languages that do not support polymorphism cannot be referred to as Object-Oriented Languages. But instead, they are known as Object Bases Languages. Ada is an example of one such Language. Since Java supports polymorphism, it is an Object-Oriented Language.
+        Polymorphism occurs when there is inheritance, i.e. there are many classes that are related to each other.
+        Inheritance is a powerful feature in Java. Inheritance lets one class acquire the properties and attributes of another class. Polymorphism in java allows us to use these inherited properties to perform different tasks.  Thus, allowing us to achieve the same action in many different ways.
+    </p>
+
+
+    <div class="row">
+        <div class="col-md">
+            <h1>Example</h1>
+            <img width="602px" height="336px" src="data:image/png;base64,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">
+        </div>
+
+        <div class="col-md">
+            <h4>Sources:</h4>
+            <ul>
+                <li><a href="https://www.mygreatlearning.com/blog/polymorphism-in-java/">GreatLearning</a></li>
+                <li><a href="https://www.researchgate.net/figure/A-Java-example-about-polymorphism_fig3_225162674">ResearchGate</a></li>
+
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

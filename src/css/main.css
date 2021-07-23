@@ -1,0 +1,24 @@
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+body {
+    background: url(https://assets.awwwards.com/awards/images/2015/04/pattern.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.border1 {
+    border-color: black;
+    border: solid 5px;
+}
